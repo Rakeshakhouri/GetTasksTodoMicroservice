@@ -13,7 +13,7 @@ spec:
         app: todo-get-task-api
     spec:
       containers:
-      - name: todo-get-task-api
+      - name: ksdevtodoapprak
         image: ksdevtodoapprak.azurecr.io/todo-get-tasks-api:v1
         ports:
         - containerPort: 8000
